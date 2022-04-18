@@ -9,6 +9,7 @@ import {doc, setDoc } from 'firebase/firestore'
 
 export default function Input() {
 
+    console.log(window.location.href)
 
     const textVal = useRef(""); // used to get a reference of the input
 
